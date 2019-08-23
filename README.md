@@ -1,5 +1,7 @@
-# Showcase
+# Google-BERT-on-fake_or_real-news-dataset
 **Description**: Use Google BERT on fake_or_real news dataset with best f1 score: 0.986
+@[TOC]
+# Showcase
 ## 1. Pipeline
 ![Pipeline](https://i.loli.net/2019/08/23/P8Seo5EvmpZfAOT.png)
 
