@@ -1,7 +1,33 @@
 # Google-BERT-on-fake_or_real-news-dataset
 **Description**: Use Google BERT on fake_or_real news dataset with best f1 score: 0.986
 
-@[TOC]
+Table of Contents
+=================
+
+
+   * [Google-BERT-on-fake_or_real-news-dataset](#google-bert-on-fake_or_real-news-dataset)
+   * [Showcase](#showcase)
+      * [1. Pipeline](#1-pipeline)
+      * [2. Part1: Data processing](#2-part1-data-processing)
+      * [3. Part2: Bert Model](#3-part2-bert-model)
+      * [4. Part3: Result](#4-part3-result)
+      * [5. Part4: Reference](#5-part4-reference)
+   * [Implementation](#implementation)
+      * [1. Preparation](#1-preparation)
+         * [1.1 Set parameters and install and load required package](#11-set-parameters-and-install-and-load-required-package)
+         * [1.2 Set tokenizer](#12-set-tokenizer)
+         * [1.3 Define Bert Config](#13-define-bert-config)
+      * [2. Dataset Processing](#2-dataset-processing)
+         * [2.1 Read the data and convert label into binary text](#21-read-the-data-and-convert-label-into-binary-text)
+         * [2.2 Combine the title and text](#22-combine-the-title-and-text)
+         * [2.3 Use regular expression to drop non-sentence](#23-use-regular-expression-to-drop-non-sentence)
+         * [2.4 Use EDA method to augment the text](#24-use-eda-method-to-augment-the-text)
+      * [3. Google Bert](#3-google-bert)
+         * [3.1 Create data dictionary](#31-create-data-dictionary)
+         * [3.2 Define the train model](#32-define-the-train-model)
+      * [4. Final output](#4-final-output)
+         * [4.1 Model details](#41-model-details)
+         * [4.2 F1 and other details](#42-f1-and-other-details)
 
 # Showcase
 ## 1. Pipeline
