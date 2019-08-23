@@ -76,6 +76,10 @@ In the end, we combine different methods of data processing and u can see the f1
 (4) **Bert Demo**:
 
 	https://github.com/sugi-chan/custom_bert_pipeline
+(5) **Dataset**:
+
+    https://cbmm.mit.edu/sites/default/files/publications/fake-news-paper-NIPS.pdf
+    
 I learn the EDA from the two web site and through two articles, I learn that we shouldn’t remove Stopwords which otherwise will destroy the context of sentence. The end is implementation of BERT with Pytorch and the Bert model I learned.
 
 # Implementation
